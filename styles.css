@@ -105,15 +105,65 @@ button {
 #quote-container {
   background-color: #E5E7EB;
   height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 48%; 
+}
+
+.quote p {
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+quote {
+  font-size: 36px;
+  font-style: light italic;
+  color:#1F2937
 }
 
 #signup-container {
   background-color: white;
   height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup-container > div {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  padding: 40px 100px;
+  color: white;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#signup-container button {
+  border: white solid 2px;
+  margin-top: -2px;
+}
+
+.bold {
+  font-weight: 800;
+  font-size: 26px;
 }
 
 #footer {
   background-color: #371f1f;
   height: 15vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
